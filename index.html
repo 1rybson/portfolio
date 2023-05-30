@@ -7,6 +7,7 @@
     <title>Michał Rybarski</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
     <div class="gradient">
@@ -15,14 +16,18 @@
                 <h1 id="name" style="font-family: 'Courier New', Courier, monospace;">Michał Rybarski</h1>
             </div>
         </nav>
+        <a href="#projects">
         <div class="panel" id="panel1">
-            <div class="content">
-                <h2>Projekty</h2>
-                <!-- <p>
-                    <img src="logo_black.png" id="image" alt="yatsuri">
-                </p> -->
-            </div>
-        </div><div class="panel" id="panel2">
+                <div class="content">
+                    <h2>Projekty</h2>
+                    <!-- <p>
+                        <img src="logo_black.png" id="image" alt="yatsuri">
+                    </p> -->
+                    <h1><i class="bi bi-arrow-return-right"></i></h1>
+                </div>
+        </div>
+        </a>
+        <div class="panel" id="panel2">
             <div class="content">
                 <h2>Panel 2</h2>
                 
@@ -31,16 +36,22 @@
         </div>
 
     </div>
+    
+    <a name="projects"></a>
 
-    <div class="panelrow2" id="panel3">
-        <div class="content">
-            <h2>Panel 3</h2>
-            <p>
-                <img src="logo_black.png" id="image" alt="yatsuri">
-            </p>
-            <h3>Dowiedz się więcej -></h3>
+    <a href="#project1">
+        <div class="panelrow2" id="panel3">
+            <div class="content">
+                <h2>Sklep internetowy z ubraniami</h2>
+                <p>
+                    <img src="logo_black.png" id="image" alt="yatsuri">
+                </p>
+                <h3>Dowiedz się więcej</h3>
+                <h1><i class="bi bi-arrow-down"></i></h1>
+            </div>
         </div>
-    </div><div class="panelrow2" id="panel4">
+    </a>
+        <div class="panelrow2" id="panel4">
         <div class="content">
             <h2>Panel 4</h2>
             <p>
@@ -56,6 +67,44 @@
             </p>
             <h3>Dowiedz się więcej -></h3>
         </div>
+    </div>
+
+    
+    <div class="yatsuri">
+        <a name="project1"></a>
+        <div class="yatsuri_images">
+            <img src="yatsuriSmall1.png" id="yatsuri_page" alt="yatsuri">
+        </div>
+        <div class="yatsuri_content">
+            <h1>Sklep internetowy z ubraniami</h1>
+            <p>
+                W pełni responsywna witryna sklepu internetowego. Złożona jest z kilku podstron:
+                <ul>
+                    <li><h3>Strona głowna</h3>
+                        <p>Na stronie głownej znajduje się karuzela z trzema zdjęciami. 
+                            Pod nią wyświetlone są najnowsze produkty. Następnie 2 panele na zdjęcia oraz oczywiście stopka.</p>
+                    </li>
+                    <li><h3>Katalog produktów</h3>
+                        <p>Katalog produktów podzielony jest na 3 zakładki: wszystko, koszulki oraz bluzy.</p>
+                    </li>
+                    <li><h3>Strona produktu</h3>
+                        <p>Każdy produkt ma swoją podstronę. Znajdują się na niej informacje dotyczące produktu, oraz proponowane 
+                            są inne produkty.
+                        </p>
+                    </li>
+                    <li><h3>Koszyk</h3></li>
+                </ul>
+                Strona nie ma funkcjonalności, ponieważ jest to tylko szablon. Strona przedstawia grafiki moich własnych wzorów 
+                które robie hobbystycznie :)<br>
+                Sklep został zrobiony za pomocą Bootstrapa.
+            </p>
+        </div>
+        <a href="https://1rybson.github.io/sklep/index.html">
+        <div class="yatsuri_link">
+            <h1>Odwiedź stronę</h1>
+            <h1><i class="bi bi-arrow-return-right"></i></h1>
+        </div>
+        </a>
     </div>
 </body>
 </html>

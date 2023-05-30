@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -39,18 +43,24 @@ body{
     float: left;
     box-sizing: border-box;
     margin-top: 0.25%;
-    margin-bottom: 0.25%;
     transition: scale 0.5s ease-out 10ms;
 }
 
 #panel1{
     /* background-color: rgb(49, 49, 196); */
     background-color: #3a5a40;
+    position: relative;
 }
 
 #panel1 h2{
     font-size: 70px;
     font-weight: bold;
+}
+
+a:link, a:hover, a:visited{
+    text-decoration: none;
+    color: black;
+    
 }
 
 #panel1, #panel3{
@@ -60,6 +70,7 @@ body{
 
 #panel4, #panel5{
     margin-right: 0.25%;
+    margin-left: 0.25%;
 }
 
 #panel2{
@@ -79,9 +90,9 @@ body{
 }
 
 .panelrow2{
-    width: 33%;
+    /* width: 33%; */
+    width: 99.5%;
     height: 500px;
-    /* background-color: antiquewhite; */
     padding: 50px;
     border-radius: 100px;
     display: flex;
@@ -89,8 +100,9 @@ body{
     justify-content: center;
     float: left;
     box-sizing: border-box;
-    /* margin: 0.25%; */
     transition: scale 0.5s ease-out 10ms;
+    /* \/margin na panele jeden po drugim */
+    margin-top: 0.25%;
 }
 
 .content{
@@ -124,4 +136,73 @@ body{
     background-image: linear-gradient(#344e41, rgb(0,0,0));
     height: 100vh;
 
+}
+
+.yatsuri{
+    background-color: #3a5a40;
+    padding: 50px;
+    border-radius: 100px;
+    width: 96%;
+    /* height: 80vh; */
+    height: auto;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-top: 0.25%;
+    clear: both;
+    float: left;
+    position: relative;
+}
+
+.yatsuri_images{
+    /* position: absolute; */
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.yatsuri_content{
+    /* position: absolute; */
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+    float: left;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B7553;
+    padding: 50px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.yatsuri_link{
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+    float: left;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B7553;
+    padding: 50px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.yatsuri_link:hover{
+    background-color: #4d6346;
+}
+
+.yatsuri_content h1{
+    text-align: center;
+}
+
+.yatsuri_images img{
+    height: 70%;
+    width: 70%;
 }

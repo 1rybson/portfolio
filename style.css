@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    font-size: 20px;
 }
 
 body{
@@ -109,7 +110,7 @@ a:link, a:hover, a:visited{
     text-align: center;
 }
 
-.panel:hover, .panelrow2:hover{
+.panel:hover, .panelrow2:hover, .yatsuri_link:hover{
     scale: 95%;
 }
 
@@ -153,7 +154,7 @@ a:link, a:hover, a:visited{
     position: relative;
 }
 
-.yatsuri_images{
+.images{
     /* position: absolute; */
     width: 60%;
     height: 100%;
@@ -165,9 +166,8 @@ a:link, a:hover, a:visited{
     /* position: absolute; */
     width: 40%;
     height: 100%;
-    background-color: antiquewhite;
     float: left;
-    font-size: medium;
+    /* font-size: medium; */
     justify-content: center;
     align-items: center;
     background-color: #5B7553;
@@ -182,7 +182,7 @@ a:link, a:hover, a:visited{
     height: 100%;
     background-color: antiquewhite;
     float: left;
-    font-size: large;
+    /* font-size: large; */
     justify-content: center;
     align-items: center;
     background-color: #5B7553;
@@ -192,6 +192,7 @@ a:link, a:hover, a:visited{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-top: 2%;
+    transition: scale 0.5s ease-out 10ms;
 }
 
 .yatsuri_link:hover{
@@ -202,7 +203,39 @@ a:link, a:hover, a:visited{
     text-align: center;
 }
 
-.yatsuri_images img{
-    height: 70%;
-    width: 70%;
+.images img{
+    height: 73.5%;
+    width: 73.5%;
+}
+
+.php{
+    background-color: #5B7553;
+    padding: 50px;
+    border-radius: 100px;
+    width: 96%;
+    height: auto;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-top: 0.25%;
+    clear: both;
+    float: left;
+    position: relative;
+}
+
+.php_content{
+    width: 40%;
+    height: 100%;
+    float: left;
+    /* font-size: medium; */
+    justify-content: center;
+    align-items: center;
+    background-color: #8EB897;
+    padding: 50px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tytul{
+    font-family: 'Courier New', Courier, monospace;
 }

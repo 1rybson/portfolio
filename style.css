@@ -181,7 +181,7 @@ a:link, a:hover, a:visited{
     width: 40%;
     height: 100%;
     background-color: antiquewhite;
-    float: left;
+    float: right;
     /* font-size: large; */
     justify-content: center;
     align-items: center;

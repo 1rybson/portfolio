@@ -1,7 +1,14 @@
+@media (max-width: 1920px){
+    .images img{
+        width: 95%;
+        height: auto;
+    }
+}
+
 @media (max-width: 1024px){
 
     html{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     .yatsuri{
@@ -16,14 +23,13 @@
 
      .images img{
         margin: auto;
-        height: 50%;
-        width: 50%;
+        height: 70%;
+        width: 70%;
         
     } 
 
     .yatsuri_content{
         width: 100%;
-        font-size: 0.8em;
          padding: 30px; 
     }
 
@@ -65,11 +71,27 @@
         float: left;
         margin-top: 0.5%;
     }
+
+    .yatsuri_content, .php_content{
+        margin-top: 2%;
+    }
 }
 
 @media (max-width: 425px){
     html{
-        font-size: 0.6em;
+        font-size: 0.8em;
+    }
+
+    .panel{
+        height: 50%;
+    }
+
+    .panel, .panelrow2, .yatsuri, .php, .rest, .yatsuri_link, .yatsuri_content, .php_content, .bloodborne, .wordpress{
+        border-radius: 75px;
+    }
+
+    .panelrow2{
+        margin-top: 2%;
     }
 
     #name{
@@ -84,8 +106,14 @@
         font-size: 40px;
     }
 
+    .panelrow2{
+        padding: 20px;
+    }
+
     .yatsuri{
         width: 100vw;
+        padding: 20px;
+        margin-top: 2%;
     }
     .images{
         width: 100%;
@@ -96,14 +124,12 @@
 
      .images img{
         margin: auto;
-        height: 100%;
-        width: 100%;
-        
+        height: 80%;
+        width: 80%;
     } 
 
     .yatsuri_content{
         width: 100%;
-        font-size: 0.8em;
          padding: 30px; 
     }
 
@@ -115,10 +141,14 @@
 
     .rest{
         width: 100vw;
+        padding: 20px;
+        margin-top: 2%;
     }
 
     .php{
         width: 100vw;
+        padding: 20px;
+        margin-top: 2%;
     }
 
     .php .images{
@@ -132,17 +162,24 @@
     .php_content{
         width: 100%;
         float: left;
+        padding: 30px;
     }
 
     .bloodborne{
         width: 100%;
         float: left;
         margin-right: 0%;
+        padding: 30px;
     }
 
     .wordpress{
         width: 100%;
         float: left;
         margin-top: 0.5%;
+        padding: 30px;
+    }
+
+    .yatsuri_content, .php_content{
+        margin-top: 2%;
     }
 }

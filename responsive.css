@@ -1,4 +1,8 @@
-@media (min-width: 1024px){
+@media (max-width: 1024px){
+
+    html{
+        font-size: 0.6em;
+    }
 
     .yatsuri{
         width: 100vw;
@@ -63,9 +67,9 @@
     }
 }
 
-@media (min-width: 425px){
+@media (max-width: 425px){
     html{
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
 
     #name{
@@ -74,6 +78,10 @@
 
     .panel{
         width: 100%;
+    }
+
+    #panel1 h2{
+        font-size: 40px;
     }
 
     .yatsuri{
@@ -88,8 +96,8 @@
 
      .images img{
         margin: auto;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         
     } 
 

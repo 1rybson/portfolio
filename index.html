@@ -7,6 +7,7 @@
     <title>Michał Rybarski</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
@@ -42,7 +43,7 @@
     <a href="#project1">
         <div class="panelrow2" id="panel3">
             <div class="content">
-                <h2>Sklep internetowy z ubraniami</h2>
+                <h2 class="tytul">Sklep internetowy z ubraniami</h2>
                 <p>
                     <img src="logo_black.png" id="image" alt="yatsuri">
                 </p>
@@ -63,76 +64,95 @@
             </div>
         </div>
     </a>
+    <a href="#project3">
         <div class="panelrow2" id="panel5">
             <div class="content">
-                <h2 class="tytul">Strona przykladowa</h2>
+                <h2 class="tytul">Mniejsze projekty</h2>
                 <p>
 
                 </p>
-                <h3 class="tytul">Dowiedz się więcej</h3>
+                <h3>Dowiedz się więcej</h3>
                 <h1><i class="bi bi-arrow-down"></i></h1>
             </div>
         </div>
+    </a>
 
-    
-    <div class="yatsuri">
-        <a name="project1"></a>
-        <div class="images">
-            <img src="yatsuriSmall1.png" id="yatsuri_page" alt="yatsuri">
-        </div>
+    <section class="projects">
 
-        <div class="yatsuri_content">
-            <h1 class="tytul">Sklep internetowy z ubraniami</h1>
-            <p>
-                <h3>W pełni responsywna witryna sklepu internetowego.<br> Złożona jest z kilku podstron:</h3>
-                <ul>
-                    <li><h4>Strona głowna</h4>
-                        <p>Na stronie głownej znajduje się karuzela z trzema zdjęciami. 
-                            Pod nią wyświetlone są najnowsze produkty. Następnie 2 panele na zdjęcia oraz oczywiście stopka.</p>
-                    </li>
-                    <li><h4>Katalog produktów</h4>
-                        <p>Katalog produktów podzielony jest na 3 zakładki: wszystko, koszulki oraz bluzy.</p>
-                    </li>
-                    <li><h4>Strona produktu</h4>
-                        <p>Każdy produkt ma swoją podstronę. Znajdują się na niej informacje dotyczące produktu, oraz proponowane 
-                            są inne produkty.
-                        </p>
-                    </li>
-                    <li><h4>Koszyk</h4></li>
-                </ul>
-                <h3>Na każdej podstronie znajduje się przyklejony do szczytu strony nagłowek z logiem sklepu, ikonką koszyka,
-                    oraz kategoriami.
-                </h3>
-                <!-- Strona nie ma funkcjonalności, ponieważ jest to tylko szablon. Strona przedstawia grafiki moich własnych wzorów 
-                które robie hobbystycznie :)<br> -->
-                <h3>Sklep został zrobiony z wykorzystaniem języków: HTML, CSS, Bootstrap.</h3>
-            </p>
-        </div>
-        <a href="https://1rybson.github.io/sklep/index.html">
-            <div class="yatsuri_link">
-                <h1 class="tytul">Odwiedź stronę</h1>
-                <h1><i class="bi bi-arrow-return-right"></i></h1>
+        <div class="yatsuri" id="project1">
+            <a name="project1"></a>
+            <div class="images">
+                <img src="yatsuriSmall1.png" id="yatsuri_page" alt="yatsuri">
             </div>
-        </a>
-    </div>
     
-    <div class="php">
-        <a name="project2"></a>
-        <div class="images">
-            <img src="phpSmall.png" id="php_page" alt="php">
+            <div class="yatsuri_content">
+                <h1 class="tytul">Sklep internetowy z ubraniami</h1>
+                
+                    <h3>W pełni responsywna witryna sklepu internetowego.<br> Złożona jest z kilku podstron:</h3>
+                    <ul>
+                        <li><h4>Strona głowna</h4>
+                            <p>Na stronie głownej znajduje się karuzela z trzema zdjęciami. 
+                                Pod nią wyświetlone są najnowsze produkty. Następnie 2 panele na zdjęcia oraz oczywiście stopka.</p>
+                        </li>
+                        <li><h4>Katalog produktów</h4>
+                            <p>Katalog produktów podzielony jest na 3 zakładki: wszystko, koszulki oraz bluzy.</p>
+                        </li>
+                        <li><h4>Strona produktu</h4>
+                            <p>Każdy produkt ma swoją podstronę. Znajdują się na niej informacje dotyczące produktu, oraz proponowane 
+                                są inne produkty.
+                            </p>
+                        </li>
+                        <li><h4>Koszyk</h4></li>
+                    </ul>
+                    <h3>Na każdej podstronie znajduje się przyklejony do szczytu strony nagłowek z logiem sklepu, ikonką koszyka,
+                        oraz kategoriami.
+                    </h3>
+                    <h3>Sklep został zrobiony z wykorzystaniem języków: HTML, CSS, Bootstrap.</h3>
+            </div>
+            <a href="https://1rybson.github.io/sklep/index.html">
+                <div class="yatsuri_link">
+                    <h1 class="tytul">Odwiedź stronę</h1>
+                    <h1><i class="bi bi-arrow-return-right"></i></h1>
+                </div>
+            </a>
         </div>
-
-        <div class="php_content">
-            <h1 class="tytul">Strona z połączeniem do bazy danych</h1>
-            <p>
-                <h3>Witryna przedstawia możliwy wygląd procesu zakładania konta oraz logowania.<br>
-                    Funkcjonalność kont jest zapewniona poprzez połączenie z bazą danych. <br>
-                    Hasło do konta jest automatycznie szyfrowane w bazie danych.<br>
-                    Zalogowany użytkownik jest zapamiętywany, dlatego nie zostaje wylogowany po odświeżeniu strony.<br>
-                    Na stronie jest do wyboru jasny oraz ciemny motyw, lecz przeglądarka nie pamięta o wyborze.
+        
+        <div class="php" id="project2">
+            <a name="project2"></a>
+            <div class="images">
+                <img src="phpSmall.png" id="php_page" alt="php">
+            </div>
+    
+            <div class="php_content">
+                <h1 class="tytul">Strona z połączeniem do bazy danych</h1>
+                <p>
+                    <h3>Witryna przedstawia możliwy wygląd procesu zakładania konta oraz logowania.</h3>
+                    <h4>Cechy strony:</h4>
+                    <ul>
+                        <li>Funkcjonalność kont jest zapewniona poprzez połączenie z bazą danych.</li>
+                        <li>Hasło do konta jest automatycznie szyfrowane w bazie danych.</li>
+                        <li>Zalogowany użytkownik jest zapamiętywany, dlatego nie zostaje wylogowany po odświeżeniu strony.</li>
+                        <li>Na stronie jest do wyboru jasny oraz ciemny motyw, lecz przeglądarka nie pamięta o wyborze.</li>
+                    </ul>
+                    <h3>Witryna została zrobiona z wykorzystaniem języków: HTML, CSS, Bootstrap, JavaScript oraz PHP.</h3>            
+                </p>
+            </div>
+        </div>
+    
+        <div class="rest" id="project3">
+            <div class="bloodborne">
+                <h1 class="tytul">Lista bossów z Bloodborne</h1>
+                <img src="bloodborne.png" id="bb_page" alt="bloodborne">
+                <h3>Jest to prosta strona z listą zadań do zrobienia. Każdy element ma swoje zdjęcie, które można pokazać 
+                    i ukryć. Po kliknięciu na dany element zakreśla się on jako wykonany. Strona wykorzystuje pliki cookie, 
+                    aby zapamiętywać zrobione zadania.
                 </h3>
-            </p>
+            </div>
+            <div class="wordpress">
+                <h1 class="tytul">Proste strony w Wordpress</h1>
+    
+            </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>

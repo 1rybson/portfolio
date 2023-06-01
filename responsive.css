@@ -1,0 +1,140 @@
+@media (min-width: 1024px){
+
+    .yatsuri{
+        width: 100vw;
+    }
+    .images{
+        width: 100%;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    } 
+
+     .images img{
+        margin: auto;
+        height: 50%;
+        width: 50%;
+        
+    } 
+
+    .yatsuri_content{
+        width: 100%;
+        font-size: 0.8em;
+         padding: 30px; 
+    }
+
+    .yatsuri_link{
+        width: 100%;
+        float: left;
+    }
+   
+
+    .rest{
+        width: 100vw;
+    }
+
+    .php{
+        width: 100vw;
+    }
+
+    .php .images{
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+
+    .php_content{
+        width: 100%;
+        float: left;
+    }
+
+    .bloodborne{
+        width: 100%;
+        float: left;
+        margin-right: 0%;
+    }
+
+    .wordpress{
+        width: 100%;
+        float: left;
+        margin-top: 0.5%;
+    }
+}
+
+@media (min-width: 425px){
+    html{
+        font-size: 0.5em;
+    }
+
+    #name{
+        font-size: 50px
+    }
+
+    .panel{
+        width: 100%;
+    }
+
+    .yatsuri{
+        width: 100vw;
+    }
+    .images{
+        width: 100%;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    } 
+
+     .images img{
+        margin: auto;
+        height: 50%;
+        width: 50%;
+        
+    } 
+
+    .yatsuri_content{
+        width: 100%;
+        font-size: 0.8em;
+         padding: 30px; 
+    }
+
+    .yatsuri_link{
+        width: 100%;
+        float: left;
+    }
+   
+
+    .rest{
+        width: 100vw;
+    }
+
+    .php{
+        width: 100vw;
+    }
+
+    .php .images{
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+
+    .php_content{
+        width: 100%;
+        float: left;
+    }
+
+    .bloodborne{
+        width: 100%;
+        float: left;
+        margin-right: 0%;
+    }
+
+    .wordpress{
+        width: 100%;
+        float: left;
+        margin-top: 0.5%;
+    }
+}

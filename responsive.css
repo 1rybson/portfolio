@@ -182,4 +182,9 @@
     .yatsuri_content, .php_content{
         margin-top: 2%;
     }
+
+    .bloodborne img{
+        width: 85%;
+        height: auto;
+    }
 }

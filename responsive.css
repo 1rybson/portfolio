@@ -1,7 +1,17 @@
+@media (max-width: 2560px){
+    #panel2{
+        padding: 200px;
+    }
+}
+
 @media (max-width: 1920px){
     .images img{
         width: 95%;
         height: auto;
+    }
+
+    #panel2{
+        padding: 70px;
     }
 }
 
@@ -79,6 +89,14 @@
     .wordpress{
         margin-top: 2%;
     }
+
+    #panel2{
+        padding: 70px;
+    }
+
+    #panel1 h2{
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 425px){
@@ -131,7 +149,6 @@
         height: 80%;
         width: 80%;
     } 
-    }
 
     .yatsuri_content{
         width: 100%;
@@ -192,4 +209,9 @@
         width: 85%;
         height: auto;
     }
+
+    #panel2{
+        padding: 50px;
+    }
+
 }

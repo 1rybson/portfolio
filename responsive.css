@@ -75,6 +75,10 @@
     .yatsuri_content, .php_content{
         margin-top: 2%;
     }
+
+    .wordpress{
+        margin-top: 2%;
+    }
 }
 
 @media (max-width: 425px){
@@ -86,7 +90,7 @@
         height: 50%;
     }
 
-    .panel, .panelrow2, .yatsuri, .php, .rest, .yatsuri_link, .yatsuri_content, .php_content, .bloodborne, .wordpress{
+    .panel, .panelrow2, .yatsuri, .php, .rest, .yatsuri_link, .yatsuri_content, .php_content, .bloodborne, .wordpress, .wp-link{
         border-radius: 75px;
     }
 
@@ -127,6 +131,7 @@
         height: 80%;
         width: 80%;
     } 
+    }
 
     .yatsuri_content{
         width: 100%;
@@ -175,7 +180,7 @@
     .wordpress{
         width: 100%;
         float: left;
-        margin-top: 0.5%;
+        margin-top: 2%;
         padding: 30px;
     }
 

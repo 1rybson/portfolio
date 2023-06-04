@@ -76,6 +76,7 @@ a:link, a:hover, a:visited{
 
 #panel2{
     color: #dddddd;
+    padding: 150px;
 }
 
 #panel3{
@@ -265,7 +266,7 @@ a:link, a:hover, a:visited{
 }
 
 .bloodborne{
-    width: 47.5%;
+    width: 49%;
     height: 100%;
     float: left;
     /* font-size: medium; */
@@ -276,7 +277,7 @@ a:link, a:hover, a:visited{
     border-radius: 100px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 5%;
+    margin-right: 2%;
     text-align: center;
 }
 
@@ -290,7 +291,7 @@ a:link, a:hover, a:visited{
 }
 
 .wordpress{
-    width: 47.5%;
+    width: 49%;
     height: 100%;
     float: left;
     /* font-size: medium; */
@@ -301,6 +302,8 @@ a:link, a:hover, a:visited{
     border-radius: 100px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
 }
 
 .wordpress h1{
